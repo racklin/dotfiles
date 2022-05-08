@@ -1,0 +1,29 @@
+[user]
+	name = Rack Lin
+	email = racklin@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	zip = archive --format=zip HEAD
+
+[branch "master"]
+	remote = origin
+	merge = master
+[core]
+	excludesfile = /Users/rack/.gitignore_global
+	fileMode = false
+	ignorecase = false
+[difftool "sourcetree"]
+        cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[github]
+	user = racklin@gmail.com
+[ghq]
+	root = ~/.ghq
+[init]
+	defaultBranch = master
