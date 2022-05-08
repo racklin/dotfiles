@@ -1,0 +1,6 @@
+# FZF
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# GHQ and FZF
+alias ghqcd="cd \$(ghq list --full-path | fzf)"
+
