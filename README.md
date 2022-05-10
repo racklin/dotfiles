@@ -19,7 +19,13 @@ Make sure you have installed all of the following prerequisites on your developm
 - git config
 - zsh config
   - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
+    ```
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
   - [powerlevel10k theme](https://github.com/romkatv/powerlevel10k)
+    ```
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    ```
 - tmux config
 - MacOSX config
   
