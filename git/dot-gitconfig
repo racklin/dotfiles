@@ -15,6 +15,7 @@
 	excludesfile = /Users/rack/.gitignore_global
 	fileMode = false
 	ignorecase = false
+	editor = nvim
 [difftool "sourcetree"]
         cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
