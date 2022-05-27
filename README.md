@@ -42,6 +42,9 @@ That’s it! we have successfully created a symlink for `.gitconfig` ,and a syml
 ### tmux
 `stow --dotfiles -vSt ~ tmux`
 
+### starship
+`stow --dotfiles -vSt ~/.config starship`
+
 
 ## About me
 

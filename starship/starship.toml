@@ -1,0 +1,41 @@
+[battery]
+disabled = true
+
+[[battery.display]] # "bold red" style and discharging_symbol when capacity is between 0% and 10%
+threshold = 20
+style = "bold red"
+discharging_symbol = " "
+
+[[battery.display]] # "bold yellow" style and 💦 symbol when capacity is between 10% and 30%
+threshold = 30
+style = "bold yellow"
+
+[directory]
+fish_style_pwd_dir_length = 1
+truncation_symbol = "…/"
+
+[hostname]
+ssh_only = true
+format = "on [$hostname](bold red) "
+disabled = false
+
+[shell]
+fish_indicator = ""
+powershell_indicator = "_"
+unknown_indicator = "mystery shell"
+style = "cyan bold"
+disabled = false
+
+[status]
+disabled = false
+
+[time]
+style = "gray bold"
+disabled = true
+
+[username]
+style_user = "white bold"
+style_root = "red bold"
+disabled = false
+show_always = true
+
