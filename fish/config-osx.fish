@@ -19,3 +19,8 @@ if type -q docker
   alias dlaravel="docker run --rm --interactive --tty --volume \$PWD:/app --volume \$HOME/.composer:/tmp composer:latest /tmp/vendor/bin/laravel"
 
 end
+
+if type -q thefuck
+  thefuck --alias | source
+end
+
