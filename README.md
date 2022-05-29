@@ -39,6 +39,10 @@ That’s it! we have successfully created a symlink for `.gitconfig` ,and a syml
 ### zsh
 `stow --dotfiles -vSt ~ zsh`
 
+### fish shell
+`mkdir ~/.config/fish`
+`stow --dotfiles -vSt ~/.config/fish fish`
+
 ### tmux
 `stow --dotfiles -vSt ~ tmux`
 
