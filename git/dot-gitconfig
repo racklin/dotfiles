@@ -16,6 +16,7 @@
 	fileMode = false
 	ignorecase = false
 	editor = nvim
+	autocrlf = true
 [github]
 	user = racklin@gmail.com
 [ghq]

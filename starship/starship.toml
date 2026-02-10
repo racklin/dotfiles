@@ -4,7 +4,7 @@ disabled = true
 [[battery.display]] # "bold red" style and discharging_symbol when capacity is between 0% and 10%
 threshold = 20
 style = "bold red"
-discharging_symbol = " "
+#discharging_symbol = " "
 
 [[battery.display]] # "bold yellow" style and 💦 symbol when capacity is between 10% and 30%
 threshold = 30
@@ -21,7 +21,7 @@ format = "on [$hostname](bold red) "
 disabled = false
 
 [shell]
-fish_indicator = ""
+#fish_indicator = ""
 powershell_indicator = "_"
 unknown_indicator = "mystery shell"
 style = "cyan bold"

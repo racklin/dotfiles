@@ -1,0 +1,21 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR ZO_CMD:zo
+SETUVAR Z_CMD:z
+SETUVAR Z_DATA:/Users/rack/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/Users/rack/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/Users/rack\x24
+SETUVAR __fish_initialized:4300
+SETUVAR __tf_func:function\x20__tf_alias\x20\x2dd\x20\x22Correct\x20your\x20previous\x20console\x20command\x22\x3b\x20\x20set\x20\x2dl\x20fucked_up_command\x20\x24history\x5b1\x5d\x3b\x20\x20env\x20TF_SHELL\x3dfish\x20TF_ALIAS\x3d__tf_alias\x20PYTHONIOENCODING\x3dutf\x2d8\x20thefuck\x20\x24fucked_up_command\x20THEFUCK_ARGUMENT_PLACEHOLDER\x20\x24argv\x20\x7c\x20read\x20\x2dl\x20unfucked_command\x3b\x20\x20if\x20\x5b\x20\x22\x24unfucked_command\x22\x20\x21\x3d\x20\x22\x22\x20\x5d\x3b\x20\x20\x20\x20eval\x20\x24unfucked_command\x3b\x20\x20\x20\x20builtin\x20history\x20delete\x20\x2d\x2dexact\x20\x2d\x2dcase\x2dsensitive\x20\x2d\x2d\x20\x24fucked_up_command\x3b\x20\x20\x20\x20builtin\x20history\x20merge\x3b\x20\x20end\x3bend\x3b
+SETUVAR __tf_vers:The\x20Fuck\x203\x2e32\x20using\x20Python\x203\x2e10\x2e4\x20and\x20Fish\x20Shell\x203\x2e4\x2e1
+SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:\x7e/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e\x7e/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e\x7e/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e\x7e/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
+SETUVAR _fisher_danhper_2F_fish_2D_ssh_2D_agent_files:\x7e/\x2econfig/fish/functions/__ssh_agent_is_started\x2efish\x1e\x7e/\x2econfig/fish/functions/__ssh_agent_start\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2dssh\x2dagent\x2efish
+SETUVAR _fisher_dracula_2F_fish_files:\x7e/\x2econfig/fish/conf\x2ed/dracula\x2efish
+SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
+SETUVAR _fisher_jorgebucaran_2F_autopair_2E_fish_files:\x7e/\x2econfig/fish/functions/_autopair_backspace\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_left\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_right\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_insert_same\x2efish\x1e\x7e/\x2econfig/fish/functions/_autopair_tab\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/autopair\x2efish
+SETUVAR _fisher_jorgebucaran_2F_replay_2E_fish_files:\x7e/\x2econfig/fish/functions/replay\x2efish\x1e\x7e/\x2econfig/fish/completions/replay\x2efish
+SETUVAR _fisher_joseluisq_2F_gitnow_40_32_2E_31_30_2E_30__files:\x7e/\x2econfig/fish/functions/__gitnow_config_file\x2efish\x1e\x7e/\x2econfig/fish/functions/__gitnow_functions\x2efish\x1e\x7e/\x2econfig/fish/functions/__gitnow_manual\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/gitnow\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/gitnow_config\x2efish\x1e\x7e/\x2econfig/fish/completions/__gitnow_completions\x2efish
+SETUVAR _fisher_oh_2D_my_2D_fish_2F_plugin_2D_license_files:\x7e/\x2econfig/fish/functions/license\x2efish\x1e\x7e/\x2econfig/fish/completions/license\x2efish
+SETUVAR _fisher_plugins:PatrickF1/fzf\x2efish\x1ejethrokuan/z\x1ejorgebucaran/autopair\x2efish\x1edracula/fish\x1ejorgebucaran/replay\x2efish\x1edanhper/fish\x2dssh\x2dagent\x1ejoseluisq/gitnow\x402\x2e10\x2e0\x1eoh\x2dmy\x2dfish/plugin\x2dlicense
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_user_paths:/opt/homebrew/Cellar/fzf/0\x2e39\x2e0/bin\x1e/opt/homebrew/opt/fzf/bin\x1e/Applications/Ghostty\x2eapp/Contents/MacOS

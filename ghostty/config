@@ -1,0 +1,17 @@
+font-size = 18
+font-family = JetBrainsMonoNL Nerd Font Mono
+
+
+theme = Builtin Pastel Dark
+# theme = Dracula
+background-opacity = 0.8
+
+
+# Window
+window-height                  = 30
+window-width                   = 100
+
+
+# other
+copy-on-select = clipboard
+shell-integration = fish
