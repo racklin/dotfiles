@@ -20,55 +20,54 @@ if status is-interactive
         case '*'
     end
 
-end
+    # include devenv
+    source (dirname (status --current-filename))/config-dev.fish
 
-# include devenv
-source (dirname (status --current-filename))/config-dev.fish
-
-# set PATH and load os-specify config
-switch (uname)
-    case Darwin
-        if test -x /opt/homebrew/bin/brew
-            eval "$(/opt/homebrew/bin/brew shellenv)"
-            set -gx PATH ~/bin $PATH
-            source (dirname (status --current-filename))/config-osx.fish
-        end
-    case Linux
-        source (dirname (status --current-filename))/config-linux.fish
-    case '*'
-        source (dirname (status --current-filename))/config-windows.fish
-end
-
-# using less instead of more
-export LESS='-R'
-alias more='less'
-
-# set default editor to nvim
-set -gx EDITOR nvim
-
-fzf_configure_bindings
-
-# ghq functions
-if type -q ghq
-    alias ghqcd="cd \$(ghq list --full-path | fzf)"
-end
-
-if type -q thefuck
-    thefuck --alias | source
-end
-
-
-# init zoxide
-if type -q zoxide
-    zoxide init fish | source
-end
-
-# init yazi
-function y
-    set tmp (mktemp -t "yazi-cwd.XXXXXX")
-    yazi $argv --cwd-file="$tmp"
-    if set cwd (command cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
-        builtin cd -- "$cwd"
+    # set PATH and load os-specify config
+    switch (uname)
+        case Darwin
+            if test -x /opt/homebrew/bin/brew
+                eval "$(/opt/homebrew/bin/brew shellenv)"
+                set -gx PATH ~/bin $PATH
+                source (dirname (status --current-filename))/config-osx.fish
+            end
+        case Linux
+            source (dirname (status --current-filename))/config-linux.fish
+        case '*'
+            source (dirname (status --current-filename))/config-windows.fish
     end
-    rm -f -- "$tmp"
+
+    # using less instead of more
+    export LESS='-R'
+    alias more='less'
+
+    # set default editor to nvim
+    set -gx EDITOR nvim
+
+    fzf_configure_bindings
+
+    # ghq functions
+    if type -q ghq
+        alias ghqcd="cd \$(ghq list --full-path | fzf)"
+    end
+
+    if type -q thefuck
+        thefuck --alias | source
+    end
+
+    # init zoxide
+    if type -q zoxide
+        zoxide init fish | source
+    end
+
+    # init yazi
+    function y
+        set tmp (mktemp -t "yazi-cwd.XXXXXX")
+        yazi $argv --cwd-file="$tmp"
+        if set cwd (command cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+            builtin cd -- "$cwd"
+        end
+        rm -f -- "$tmp"
+    end
+
 end
