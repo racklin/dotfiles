@@ -9,8 +9,10 @@ I am using [GNU Stow](https://www.gnu.org/software/stow/) - a symlink farm manag
 ## Prerequisites
 Make sure you have installed all of the following prerequisites on your development machine:
 - [GNU Stow](https://www.gnu.org/software/stow/) > 2.3.0 that support new `--dotfiles` option
+- [Homebrew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)
+  Install Homebrew `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [z for fish](https://github.com/jethrokuan/z) - Directory jumping
-- [Exa](https://the.exa.website/) - `ls` replacement
+- [Eza](https://github.com/eza-community/eza) - `ls` replacement
 - [ghq](https://github.com/x-motemen/ghq) - Local Git repository organizer
 - [fzf](https://github.com/junegunn/fzf) - is a general-purpose command-line fuzzy finder.
 
@@ -45,6 +47,14 @@ That’s it! we have successfully created a symlink for `.gitconfig` ,and a syml
 
 ### tmux
 `stow --dotfiles -vSt ~ tmux`
+
+### nvim
+`mkdir ~/.config/nvim`
+`stow --dotfiles -vSt ~/.config/nvim nvim`
+
+### ghostty
+`mkdir ~/.config/ghostty`
+`stow --dotfiles -vSt ~/.config/ghostty ghostty`
 
 ### starship
 `stow --dotfiles -vSt ~/.config starship`

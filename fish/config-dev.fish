@@ -1,3 +1,9 @@
+# podman migrate transparently from Docker to Podman Desktop 
+if type -q podman
+    set PODMAN_SOCKET_PATH "$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
+    export DOCKER_HOST="unix://$PODMAN_SOCKET_PATH"
+end
+
 if type -q docker
 
     # PHP in container

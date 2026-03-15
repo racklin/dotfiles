@@ -1,0 +1,132 @@
+# Command-line interface for SQLite
+brew "sqlite"
+# Download with resuming and segmented downloading
+brew "aria2"
+# Record and share terminal sessions
+brew "asciinema"
+# Statistics utility to count lines of code
+brew "cloc"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# More intuitive version of du in rust
+brew "dust"
+# Modern, maintained replacement for ls
+brew "eza"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Plugin manager for the Fish shell
+brew "fisher"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# Remote repository management made easy
+brew "ghq"
+# Improved top (interactive process viewer)
+brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Mac App Store command-line interface
+brew "mas"
+# Hash utilities
+brew "md5sha1sum"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Library for color text mode, widget based user interfaces
+brew "newt"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Alternative to docker-compose using podman
+brew "podman-compose"
+# Podman Terminal User Interface
+brew "podman-tui"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
+brew "tmux"
+# Incremental parsing library
+brew "tree-sitter"
+# Parser generator tool
+brew "tree-sitter-cli"
+# Tracks most-used directories to make cd smarter
+brew "z"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Desktop password and login vault
+cask "bitwarden"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Tool to run Windows software
+cask "crossover"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-noto-sans-cjk"
+cask "font-noto-serif-cjk"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Client for the Google Drive storage service
+cask "google-drive"
+# Free and open-source media player
+cask "iina"
+# File archiver
+cask "keka"
+# Project management software
+cask "lark"
+# Reverse proxy, secure introspectable tunnels to localhost
+cask "ngrok"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Provides common input methods
+cask "openvanilla"
+# Client program for the OpenVPN Access Server
+cask "openvpn-connect"
+# Browse, manage, inspect containers and images
+cask "podman-desktop"
+# Screenshot measurement and annotation tool
+cask "shottr"
+# Visible indicator of the current input source
+cask "showyedge"
+# Sync and backup service to Synology NAS drives
+cask "synology-drive"
+# Desktop client for Telegram messenger
+cask "telegram-desktop"
+# File transfer application
+cask "transmit"
+# Open-source code editor
+cask "visual-studio-code"
+# Video conferencing software
+cask "voov-meeting"
+# Free messaging and calling application
+cask "wechat"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
+mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
+mas "Shadowrocket", id: 932747118
+vscode "eamodio.gitlens"
+vscode "editorconfig.editorconfig"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
+vscode "ms-vscode-remote.remote-wsl"
+vscode "ms-vscode-remote.vscode-remote-extensionpack"
+vscode "ms-vscode.remote-explorer"
+vscode "ms-vscode.remote-server"
