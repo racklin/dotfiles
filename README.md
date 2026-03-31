@@ -30,11 +30,11 @@ Make sure you have installed all of the following prerequisites on your developm
     ```
 - tmux config
 - MacOSX config
-  
+
 ## How to use
 
 ### git
-Let’s stow git setting, 
+Let’s stow git setting,
 `stow --dotfiles -vSt ~ git`
 That’s it! we have successfully created a symlink for `.gitconfig` ,and a symlink for `.gitignore_global`
 
@@ -42,22 +42,19 @@ That’s it! we have successfully created a symlink for `.gitconfig` ,and a syml
 `stow --dotfiles -vSt ~ zsh`
 
 ### fish shell
-`mkdir ~/.config/fish`
-`stow --dotfiles -vSt ~/.config/fish fish`
+`stow --dotfiles -vSt ~ fish`
 
 ### tmux
 `stow --dotfiles -vSt ~ tmux`
 
 ### nvim
-`mkdir ~/.config/nvim`
-`stow --dotfiles -vSt ~/.config/nvim nvim`
+`stow --dotfiles -vSt ~ nvim`
 
 ### ghostty
-`mkdir ~/.config/ghostty`
-`stow --dotfiles -vSt ~/.config/ghostty ghostty`
+`stow --dotfiles -vSt ~ ghostty`
 
 ### starship
-`stow --dotfiles -vSt ~/.config starship`
+`stow --dotfiles -vSt ~ starship`
 
 
 ## About me

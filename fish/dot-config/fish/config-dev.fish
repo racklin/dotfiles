@@ -1,4 +1,4 @@
-# podman migrate transparently from Docker to Podman Desktop 
+# podman migrate transparently from Docker to Podman Desktop
 if type -q podman
     set PODMAN_SOCKET_PATH "$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
     export DOCKER_HOST="unix://$PODMAN_SOCKET_PATH"
@@ -15,6 +15,10 @@ if type -q docker
 
     # azure-cli
     #  alias az="docker run --rm --name azure-cli -v \$HOME/.azure/config:/.azure/config bitnami/azure-cli:latest"
-
     #  alias aws="docker run --rm --name aws-cli -v \$HOME/.aws/config:/.aws/config bitnami/aws-cli:latest"
+
+    ## plantuml local server
+    alias run-plantuml-server="docker run -d -p 8080:8080 --name plantuml-server --rm --read-only -v /tmp/jetty plantuml/plantuml-server:jetty"
+    alias stop-plantuml-server="docker stop plantuml-server"
+
 end

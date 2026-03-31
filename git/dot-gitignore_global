@@ -48,3 +48,5 @@ DerivedData
 .atom/compile-cache
 .atom/storage
 
+# synology nas
+**/@eaDir/**

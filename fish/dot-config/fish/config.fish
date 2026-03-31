@@ -37,6 +37,28 @@ if status is-interactive
             source (dirname (status --current-filename))/config-windows.fish
     end
 
+    # eza alias
+    if type -q eza
+        alias l 'eza -bGF --header --git --color=always --group-directories-first --icons'
+        alias l. 'eza -a | grep -E \'^\.\''
+        alias lS 'eza -1 --color=always --group-directories-first --icons'
+        alias la 'eza --long --all --group --group-directories-first'
+        alias ll 'eza -la --icons --octal-permissions --group-directories-first --icons'
+        alias llm 'eza -lbGd --header --git --sort=modified --color=always --group-directories-first --icons'
+        alias llg "ll --git"
+        alias ls 'eza --color=always --group-directories-first --icons'
+        alias lsa 'ls -lah'
+        alias lt 'eza --tree --level=2 --color=always --group-directories-first --icons'
+        alias lx 'eza -lbhHigUmuSa@ --time-style=long-iso --git --color-scale --color=always --group-directories-first --icons'
+    end
+
+    alias md 'mkdir -p'
+
+    if type -q nvim
+        alias vi nvim
+        alias vim nvim
+    end
+
     # using less instead of more
     export LESS='-R'
     alias more='less'

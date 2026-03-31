@@ -1,0 +1,10 @@
+{
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://localhost:8080",
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'JetBrainsMonoNL Nerd Font Mono', Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "php.validate.executablePath": ""
+}
